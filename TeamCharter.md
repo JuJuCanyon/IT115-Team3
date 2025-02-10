@@ -27,22 +27,22 @@
     Name: Julian Canyon  
      Strengths: creativity, technical troubleshooting, leadership, organization, formatting documents.  
      Weaknesses: html  
-     Role:
+     Role: Developer, QA
 
 Name: Lorena Sanchez  
      Strengths: Analytical, decision making, project management, organization, communication  
      Weaknesses: technical skills  
-     Role: Product m
+     Role: Business Analyst
 
 Name: Max Prindle  
      Strengths: Coding, file navigation, organization  
      Weaknesses: Decision making  
-     Role:
+     Role: Developer
 
 Name: Eleni Mulu  
      Strengths: Javascript, Html, web design.  
      Weaknesses: Decision making, punctuality, meeting deadlines, Python.  
-     Role: 
+     Role: Ui Designer, Version Control
 
  
 
@@ -135,6 +135,7 @@ Team Member Signatures:
     Name 1: Julian Canyon	   
      Name 2: Lorena Sanchez   
      Name 3: \_Eleni M\_\_\_\_\_\_\_  
+     Name 4: Max Prindle
      Date: \_\_\_2/6/2025		
 
  

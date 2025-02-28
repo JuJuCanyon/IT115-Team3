@@ -1,25 +1,81 @@
 .wrapper {
-  width: 100%;
+  max-width: 1170px; /* Allows responsiveness */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   padding-bottom: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: auto; /* Center content */
 }
 
 .banner {
-  background-color: #0fc915;  
+  background-color: #447146;  
   color: rgb(169, 21, 21); 
   text-align: center;
-  padding: 30px 0; 
+  padding: 20px 0; 
 }
 
-h1 {
-  margin: 0;
-  font-size: 2.5em;
+.hero {
+  background: url('images/outdoors-hero.jpg') no-repeat center center/cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  position: relative;
 }
 
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
 
+.hero-content {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #ff8c00;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #e67e00;
+  transform: scale(1.05);
+}
 
 body {
   background-color: linen;
@@ -34,13 +90,14 @@ h1 {
 }
 
 img {
-  width: 100%;
-  max-width: 400px;
+  width: 150px;
+  max-width: 300px;
   height: auto;
-  border: 10px solid green;
+  border: 5px solid green;
   border-radius: 20px;
+  display: block;
+  margin: auto;
 }
-
 
 img:hover {
   transform: scale(1.05);
@@ -53,7 +110,6 @@ figcaption {
   color: black;
   margin-top: 10px;
 }
-
 
 nav {
   background-color: #3b9258;
@@ -91,5 +147,40 @@ nav ul li a:hover {
   color: yellow;
 }
 
+/* Improved Aside Positioning */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
+section {
+  flex: 1;
+  max-width: 65%;
+}
 
+aside {
+  flex: 1;
+  max-width: 30%;
+  background-color: #f0f8ff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+aside h2 {
+  color: #0084ff;
+}
+
+blockquote {
+  font-style: italic;
+  color: #555;
+  border-left: 5px solid #0084ff;
+  padding-left: 15px;
+  margin: 10px auto;
+  max-width: 600px;
+}

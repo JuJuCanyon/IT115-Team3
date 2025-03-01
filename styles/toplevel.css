@@ -84,13 +84,19 @@ nav ul {
 }
 
 nav ul li {
-  margin-right: 20px;
+  color: rgb(128, 255, 219);
+  text-decoration: none;
+  font-size: 1.4em;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: 1.2em;
+  /*font-size: 1.2em; */
+  /*repeating font size in both sections that feature nav ul li doubles the effects*/
   padding: 8px 15px;
   border-radius: 5px;
   transition: background-color 0.3s ease;

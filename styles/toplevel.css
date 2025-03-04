@@ -8,8 +8,14 @@
 }
 
 .banner {
-  background-color: #0fc915;  
+  background-color: #0fc915;
   color: rgb(169, 21, 21); 
+  text-align: center;
+  padding: 30px 0; 
+}
+
+.footer {
+  background-color: #3b9258;
   text-align: center;
   padding: 30px 0; 
 }
@@ -29,6 +35,14 @@ body {
 h1 {
   color: navy;
   font-size: 2.5em;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: navy;
+  font-size: 1.5em;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -66,7 +80,6 @@ figcaption {
 
 
 nav {
-  background-color: #3b9258;
   padding: 10px 0;
   text-align: center;
   position: sticky;
@@ -84,19 +97,20 @@ nav ul {
 }
 
 nav ul li {
-  color: rgb(128, 255, 219);
+  color: rgb(47, 56, 134);
   text-decoration: none;
   font-size: 1.4em;
   padding: 8px 15px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
-}
+} 
 
 nav ul li a {
-  color: white;
+  color: rgb(12, 80, 225);
+  background-color:rgb(207, 255, 204);
   text-decoration: none;
   /*font-size: 1.2em; */
-  /*repeating font size in both sections that feature nav ul li doubles the effects*/
+  /*repeating font size in both sections that feature nav ul li doubles the effects */
   padding: 8px 15px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -106,6 +120,7 @@ nav ul li a:hover {
   background-color: #555;
   color: yellow;
 }
+
 
 
 

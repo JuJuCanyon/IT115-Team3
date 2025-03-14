@@ -8,10 +8,16 @@
 }
 
 .banner {
-  background-color: #0fc915;  
+  background-color: rgb(111, 148, 96);
   color: rgb(169, 21, 21); 
   text-align: center;
   padding: 30px 0; 
+}
+
+.footer {
+  background-color: rgb(101, 122, 98);
+  text-align: center;
+  padding: 15px 0; 
 }
 
 h1 {
@@ -22,13 +28,26 @@ h1 {
 
 
 body {
-  background-color: linen;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(219, 229, 234);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  color: rgb(12, 92, 67);
+  color: rgb(3, 69, 105);
   font-size: 2.5em;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.bannerHeading {
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+h2 {
+  color: rgb(3, 69, 105);
+  font-size: 1.5em;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -37,14 +56,20 @@ h1 {
 p {
   text-align: center;
   font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p {
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
   width: 100%;
   max-width: 400px;
   height: auto;
-  border: 10px solid green;
+  border: 10px solid rgb(8, 108, 162);
   border-radius: 20px;
   display:block;
   margin: auto;
@@ -66,7 +91,6 @@ figcaption {
 
 
 nav {
-  background-color: #3b9258;
   padding: 10px 0;
   text-align: center;
   position: sticky;
@@ -84,13 +108,20 @@ nav ul {
 }
 
 nav ul li {
-  margin-right: 20px;
-}
+  color: rgb(3, 69, 105);
+  text-decoration: none;
+  font-size: 1.4em;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+} 
 
 nav ul li a {
-  color: white;
+  color: rgb(3, 69, 105);
+  background-color:rgb(207, 255, 204);
   text-decoration: none;
-  font-size: 1.2em;
+  /*font-size: 1.2em; */
+  /*repeating font size in both sections that feature nav ul li doubles the effects */
   padding: 8px 15px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -100,6 +131,69 @@ nav ul li a:hover {
   background-color: #555;
   color: yellow;
 }
+
+form {
+  width:25%;
+  padding-left: 37.5%;
+}
+
+.rememberbtn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form input[type=text], input[type=password] {
+  width:100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: rgb(8, 108, 162);
+  color: white;
+  padding: 14px 20px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  font-size: 150%;
+  width: 25%;
+}
+
+form button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  margin-left: 16px;
+  padding: 10px 18px;
+  background-color: rgb(101, 122, 98);;
+}
+
+.container {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: auto;
+}
+
+span.psw {
+  padding-right: 16px;
+  padding-top: 16px;
+  float:right;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
 
 
 

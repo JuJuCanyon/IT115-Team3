@@ -267,7 +267,7 @@ main {
   align-items: flex-start;
 }
 
-section {
+.indexStyle {
   flex: 1;
   max-width: 65%;
 }
